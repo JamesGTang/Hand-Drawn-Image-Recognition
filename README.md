@@ -4,7 +4,7 @@ Abstract—’Quick Draw’ doodles dataset is a large hand drawn image dataset 
 
 This project is for Kaggle Competition of COMP 551 (Applied Machine Learning) at McGill University. 
 
-### For full report please refer to the the report.pdf
+#### For full report please refer to the the report.pdf
 
 ## Introduction
 Image analysis is a popular area of research in the domain of Machine Learning. Tackling a variant of the Google’s ’Quick Draw!’ dataset, the goal is to classify hand drawn images into 31 classes. The provided training and test datasets contain 10,000 labelled and unlabelled hand-drawn images respectively. Each image of size (100,100) consists of a doodle surrounded by randomly generated noise, where for one class labelled empty, each image consists of no doodle and only noise. In order to maximize prediction accuracy, different machine learning algorithm methods from baseline to more complex models are tested, including SVM1, neural network, k-NN, and CNNs. We use OpenCV for image preprocessing, and algorithms are built using scikit-learn and tflearn.
