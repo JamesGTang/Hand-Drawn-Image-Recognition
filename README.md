@@ -82,7 +82,8 @@ For the CNN model, we can try add batch size as another hyper parameters to trai
 Another technique that is worth to test out is ensemble modeling. That is, the dataset is trained on different models and then use boosting or bagging to combine the result from each model to give an overall prediction on the input data. Ensemble modeling also prevents the model from overfitting.
 
 ## Credit
-He, Jingyi 
-Rahman, Aanika
-Zhao, Zhuoran
-Tang, James
+
+ 1. He, Jingyi  jingyi.he at mail.mcgill.ca
+ 2. Rahman, Aanika aanika.rahman at mail.mcgill.ca
+ 3. Zhao, Zhuoran zhuoran.zhao at mail.mcgill.ca
+ 4. Tang, James guokai.tang at mail.mcgill.ca
