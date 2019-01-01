@@ -1,3 +1,6 @@
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 ## Project Description 
 Abstract—’Quick Draw’ doodles dataset is a large hand drawn image dataset provided by Google. In this project, the subset of the ’Quick Draw’ doodles dataset is analyzed. The goal of this project is to classify the hand drawn doodles into 31 classes. In this report, we show the outstanding performance of CNN against other models. We also show the careful preprocessing on images, proper features selection, and the model construction significantly improve the performance of the models.
@@ -45,6 +48,7 @@ Using the proper loss function, in general we train our classifier as follows:
  7. Repeat step 4 and 5 to improve the model. 8) Use the best model to predict the final test set and make the submission.
 ### Hyper-parameter Tuning & Regularization
 CNN: For augmentation part, we first use tensorflow do images augmentation by adding random vertical and horizontal flips, and random rotations with max 30 degrees of angle. For the tunning part, in order to maximize accuracy on test set, we use the CNN model with several hyper-parameters that include epoch number, learning rate, dropout rate, number of filters, kernel sizes and stride sizes. The corresponding range is listed below. Besides these hyper parameters, we also tries batch normalization after each convnet layer sets and different number of layers as the original models to tune those parameters. Then we use the validation set accuracy as a performance measure, we select the best parameters using grid search on all the hyper-parameters proposed.
+
 ![enter image description here](https://github.com/JamesGTang/Hand-Drawn-Image-Recognition/raw/master/graph/hyperparam.png)
 ## Results
 ### Performance
@@ -78,7 +82,6 @@ For the CNN model, we can try add batch size as another hyper parameters to trai
 Another technique that is worth to test out is ensemble modeling. That is, the dataset is trained on different models and then use boosting or bagging to combine the result from each model to give an overall prediction on the input data. Ensemble modeling also prevents the model from overfitting.
 
 ## Credit
-### Team Bernoudles
 He, Jingyi 
 Rahman, Aanika
 Zhao, Zhuoran
